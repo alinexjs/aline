@@ -53,8 +53,12 @@
 ###
 
 <div align="center">
-  <!-- Pac-Man contribution graph online -->
-  <img src="https://pacman-graph.vercel.app/alinexjs" alt="Pac-Man contribution graph" />
+  <!-- Pac-Man contribution graph local -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/pacman-contribution-graph.svg">
+    <img alt="Pac-Man contribution graph" src="assets/pacman-contribution-graph.svg">
+  </picture>
 </div>
 
 ###
