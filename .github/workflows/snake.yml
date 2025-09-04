@@ -1,1 +1,24 @@
+name: generate snake graph
+
+on:
+  workflow_dispatch:          # permite rodar manualmente
+  push:
+    branches:
+      - principal
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake-contribution-graph.svg
+        uses: gh-action-snake/graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Publish snake-contribution-graph.svg
+        uses: peaceiris/actions-gh-pages@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
 
