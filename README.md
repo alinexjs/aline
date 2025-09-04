@@ -53,7 +53,7 @@
 ###
 
 <div align="center">
-  <img alt="Snake contribution graph" src="https://raw.githubusercontent.com/SEU-USUARIO/SEU-REPOSITORIO/output/snake-contribution-graph.svg">
+  <img alt="" src="kitty.gif">
 </div>
 
 
