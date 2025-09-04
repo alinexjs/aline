@@ -53,13 +53,9 @@
 ###
 
 <div align="center">
-  <!-- Pac-Man contribution graph local -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/pacman-contribution-graph.svg">
-    <img alt="Pac-Man contribution graph" src="assets/pacman-contribution-graph.svg">
-  </picture>
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/alinexjs/alinexjs/output/pacman-contribution-graph.svg">
 </div>
+
 
 ###
 
